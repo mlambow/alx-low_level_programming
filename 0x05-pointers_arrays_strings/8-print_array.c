@@ -6,12 +6,13 @@
 *@a: int type array pointer
 *@n: int type interger
 *numbers must be separated by comma, followed by a space
-*the numbers should be displayed in the same order as they are stored in the array
+*the numbers should be displayed in the same order as they are stored
 */
 
 void print_array(int *a, int n)
 {
 	int i;
+
 	i = 0;
 
 	for (n--; n >= 0; n--, i++)
