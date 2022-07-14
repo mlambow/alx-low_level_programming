@@ -18,6 +18,7 @@ char *leet(char *s)
 	char leetNums[] = "4433007711";
 
 	stringCount = 0;
+
 	while (s[stringCount] != '\0')
 		{
 			leetCount = 0;
