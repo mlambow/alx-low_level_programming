@@ -34,7 +34,7 @@ int main(int args, char *argv[])
 			c -= 2;
 		else if (c >= 1)
 			c -= 1;
-		else 
+		else
 			break;
 		coins += 1;
 	}
